@@ -48,7 +48,6 @@ export function Footer() {
 </span>
 <span className="font-display text-2xl font-semibold">BINNINI</span>
 
-              <span className="font-display text-2xl font-semibold">BINNINI</span>
             </div>
             <p className="mt-3 max-w-xs text-sm text-muted-foreground">
               Little Things, Big Smiles. Playful finds made to bring more color and joy to
