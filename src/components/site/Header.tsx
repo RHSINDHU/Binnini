@@ -43,12 +43,18 @@ export function Header() {
               {open ? <X className="size-5" /> : <Menu className="size-5" />}
             </button>
 
-<Link to="/" className="flex shrink-0 items-center">
-  <img
-    src="/logo.jpg"
-    alt="Binnini"
-    className="h-12 w-auto object-contain sm:h-14"
-  />
+<Link to="/" className="flex shrink-0 items-center gap-2">
+  <span
+    className="grid size-9 shrink-0 place-items-center rounded-2xl text-lg"
+    style={{ background: "#E8D7F5" }}
+    aria-hidden
+  >
+    🧸
+  </span>
+
+  <span className="font-display text-xl font-semibold tracking-tight sm:text-2xl">
+    BINNINI
+  </span>
 </Link>
 
           </div>
