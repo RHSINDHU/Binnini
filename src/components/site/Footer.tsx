@@ -40,12 +40,14 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-2">
               <span
-                className="grid size-9 place-items-center rounded-2xl"
-                style={{ background: "var(--coral)" }}
-                aria-hidden
-              >
-                🌈
-              </span>
+  className="grid size-9 place-items-center rounded-2xl text-lg"
+  style={{ background: "#E8D7F5" }}
+  aria-hidden
+>
+  🧸
+</span>
+<span className="font-display text-2xl font-semibold">BINNINI</span>
+
               <span className="font-display text-2xl font-semibold">BINNINI</span>
             </div>
             <p className="mt-3 max-w-xs text-sm text-muted-foreground">
@@ -91,7 +93,7 @@ export function Footer() {
         </div>
 
         <p className="mt-12 border-t border-border/60 pt-6 text-center text-sm text-muted-foreground">
-          © 2026 Binnini. Little Things, Big Smiles. 🌈
+          © 2026 Binnini. Little Things, Big Smiles.  🧸
         </p>
       </div>
     </footer>
