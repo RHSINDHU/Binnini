@@ -45,7 +45,7 @@ export function Header() {
 
 <Link to="/" className="flex shrink-0 items-center">
   <img
-    src="/logo.png"
+    src="/logo.jpg"
     alt="Binnini"
     className="h-12 w-auto object-contain sm:h-14"
   />
